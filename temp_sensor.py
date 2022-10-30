@@ -23,8 +23,8 @@ def light_leds(num_leds: int):
         green_color = 0
     elif num_leds == 3:
         red_color = 255
-        blue_color = 67
-        green_color = 211
+        blue_color = 0
+        green_color = 255
     elif num_leds == 2:
         red_color = 0
         blue_color = 255
