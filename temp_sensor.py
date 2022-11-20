@@ -17,15 +17,15 @@ def light_leds(num_leds: int):
     print('num leds: {} '.format(num_leds))
     switch_off_lights()
        
-    if num_leds == 4:
+    if num_leds == 10:
         red_color = 255
         blue_color = 0
         green_color = 0
-    elif num_leds == 3:
+    elif num_leds == 6:
         red_color = 255
         blue_color = 0
         green_color = 255
-    elif num_leds == 2:
+    elif num_leds == 4:
         red_color = 0
         blue_color = 255
         green_color = 0     
@@ -56,15 +56,16 @@ while True:
     print('temperature in centigrade is: ',temp)
     if temp >= 30:
         print('light 4 leds in red color')
-        light_leds(4)
+        light_leds(10)
     elif temp < 30 and temp >= 28:
         print('light 3 leds in yellow color')
-        light_leds(3)
+        light_leds(6)
     elif temp < 28 and temp >= 24:
         print('light 2 leds in blue color')
-        light_leds(2)
+        light_leds(4)
     else:
         print('raw is too small to power up an LED')
         
   #time.sleep(2)
     
+
