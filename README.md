@@ -15,7 +15,11 @@ else if temp is in between 28 and 24 (inclusive):
 else:
    not enough temp to light the led bulbs
 ```
-   
+
+Pin connections for raspberry pi pico:
+Ground: 33
+Data: 29
+Voltage: 39
    
 Ref: 
 1. https://how2electronics.com/interfacing-ds18b20-sensor-with-raspberry-pi-pico/
